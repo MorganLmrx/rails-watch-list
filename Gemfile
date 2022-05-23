@@ -35,9 +35,10 @@ gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 
 gem "simple_form", github: "heartcombo/simple_form"
-
+gem "dotenv-rails", groups: [:development, :test]
 gem "faker"
 
+gem "cloudinary"
 #gem "pg"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
